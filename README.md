@@ -65,7 +65,7 @@ Ezen funkciókhoz kötött útvonalak védve vannak - authentikációtól függ�
 
 ## Technikai leírása a funkcióknak
 
-Az alkalmazás alapvetően két táblát használ az adatbázisból: Users és Posts.
+Az alkalmazás alapvetően két táblát használ az adatbázisból: Users és Posts. A többi tábla a Laravel működéséhez, egyéb funkcióihoz szükséges táblák. Az adatbázis-stuktúra modelje a gyökérkönyvtárban található (db-model.png).
 
 Az alkalmazás a Laravel struktúrája szerint épült fel, ami gyakorlatilag az MVC-modellen alapszik:
 
